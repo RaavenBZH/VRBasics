@@ -67,5 +67,8 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "VRBasics.slnx"
+    "dotnet.defaultSolution": "VRBasics.slnx",
+    "files.watcherExclude": {
+        "**/target/**": true
+    }
 }
