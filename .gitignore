@@ -85,6 +85,16 @@ mono_crash.*
 *.unitypackage.meta
 *.app
 
+# Build output directory
+/[Bb]uild/
+/[Bb]uilds/
+
+# Build artifacts generated next to the player (never ship these)
+*_BurstDebugInformation_DoNotShip/
+*_BurstDebugInformation_DoNotShip*.meta
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_ButDontShipItWithYourGame*.meta
+
 # Crashlytics generated file
 crashlytics-build.properties
 
